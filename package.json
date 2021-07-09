@@ -4,7 +4,20 @@
   "description": "This is a simple code for checking wether the commit msg is conventional or not",
   "main": "App.js",
   "scripts": {
-    "test": "standard && node test.js | tap-spec"
+    "test": "standard && node test.js | tap-spec",
+    "lint": "standard . --fix"
+  },
+  "files": [
+    "App.js",
+    "cli.js"
+  ],
+  "author": {
+    "name": "Alestor Aldous",
+    "url": "https://alestor123.github.io"
+  },
+  "funding": "https://alestor123.is-a.dev/donate/",
+  "engines": {
+    "node": ">=10"
   },
   "repository": {
     "type": "git",
@@ -21,10 +34,14 @@
     "commit",
     "message"
   ],
-  "author": "Alestor Aldous",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alestor123/CONVENTIONAL-COMMIT/issues"
   },
-  "homepage": "https://github.com/alestor123/CONVENTIONAL-COMMIT#readme"
+  "homepage": "https://github.com/alestor123/CONVENTIONAL-COMMIT#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  }
 }
