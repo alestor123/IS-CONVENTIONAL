@@ -8,8 +8,7 @@
     "lint": "standard . --fix"
   },
   "files": [
-    "App.js",
-    "cli.js"
+    "App.js"
   ],
   "author": {
     "name": "Alestor Aldous",
@@ -18,9 +17,6 @@
   "funding": "https://alestor123.is-a.dev/donate/",
   "engines": {
     "node": ">=10"
-  },
-  "bin": {
-    "is-conventional": "cli.js"
   },
   "repository": {
     "type": "git",
