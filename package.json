@@ -1,0 +1,30 @@
+{
+  "name": "is-conventional",
+  "version": "1.0.0",
+  "description": "This is a simple code for checking wether the commit msg is conventional or not",
+  "main": "App.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/CONVENTIONAL-COMMIT.git"
+  },
+  "keywords": [
+    "conventional",
+    "github",
+    "git",
+    "npm",
+    "npmjs",
+    "regex",
+    "string",
+    "commit",
+    "message"
+  ],
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/CONVENTIONAL-COMMIT/issues"
+  },
+  "homepage": "https://github.com/alestor123/CONVENTIONAL-COMMIT#readme"
+}
