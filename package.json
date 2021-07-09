@@ -19,6 +19,9 @@
   "engines": {
     "node": ">=10"
   },
+  "bin": {
+    "is-conventional": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alestor123/CONVENTIONAL-COMMIT.git"
